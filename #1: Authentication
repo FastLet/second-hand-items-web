@@ -1,0 +1,21 @@
+Use-Case Description
+
+Use Case: 1.0 User Authentication 
+Actors: User
+Pre-condition: 
+1.	The Web is not in user-logged-in state.
+Post-condition: User gets an access to the "name" web.
+Trigger: User requests for login.
+Flow of Events:
+1.	User requests for a login on the system.
+2.	The system requests user to validate their identity.
+3.	User supplies identification details.
+4.	If the details are valid then a user can access the system.
+Alternative Paths:
+4(a). If the details are not valid then the use case resumes at Step 2.
+
+
+Alternative Paths:
+2(a). If a user is a first time user then the system requests the user to register their details.
+2(b). User supplies their details.
+2(c). The system creates an account for a user and go to Step 4.
