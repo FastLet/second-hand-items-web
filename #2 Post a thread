@@ -1,0 +1,10 @@
+User Case: Post a Thread
+Actor: user
+Pre_condition: the user is in logged in state
+trigger: user request posting service
+
+Events Flow:
+1. user request posting a thread
+2. CircleRound require the user to fill a form of the details(Title,price, description, pics)
+3. user fulfill all the details
+4. Circle round validate the input and save to DB.
