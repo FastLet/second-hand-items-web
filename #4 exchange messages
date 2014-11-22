@@ -1,0 +1,11 @@
+User case: exchange message
+actor: user
+pre_condition: 
+      the sender and receiver are existing user of CircleRound
+      the user is currently watching a thread or have received a message
+trigger: the user reply to a thread or a message
+Event Flow:
+1. the user reply to a thread or a message
+2. the system save the message into database, and push to the recepient 
+3. recepient can either delete the message or reply back
+4. if reply back, go back to step 1

@@ -1,0 +1,10 @@
+User case: Search Threads
+Actor: User
+Pre_condition: at least one key word is provided
+Trigger: user request search the DB with a list of keywords
+
+Evert Flow:
+1. user request search the DB with a list of keywords
+2. CircleRound search the whole DB and retrieve the relevant threads and show to the user
+3. user choose one thread to see details
+4. CircleRound GET all the details of this thread and show

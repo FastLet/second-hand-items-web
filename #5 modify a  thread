@@ -1,0 +1,5 @@
+User case: Modification
+Actor: User
+pre_condition:(important) the user have to be the owner
+
+Event Flow: simple, just update the instance of the thread
